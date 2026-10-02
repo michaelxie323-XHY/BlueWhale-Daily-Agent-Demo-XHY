@@ -1,0 +1,20 @@
+.DS_Store
+.env
+.build/
+build/
+DerivedData/
+__pycache__/
+xcuserdata/
+*.xcuserstate
+
+# Local credentials and signing material
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.pem
+*.key
+
+# Delivery archives
+dist/
